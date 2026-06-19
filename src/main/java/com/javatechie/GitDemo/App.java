@@ -7,8 +7,11 @@ package com.javatechie.GitDemo;
 public class App 
 {
 	
-	public void methodOne() {
-		System.out.println("Welecoming sasi to Git");
+	public void methodOne(String data) {
+		System.out.println("Welecoming sasi to Git" + data);
+		if(data.equals("javatechie")){
+			System.out.println("Welcome Java Techie");
+		}
 		
 	}
 	
