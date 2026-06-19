@@ -14,6 +14,11 @@ public class App
 		}
 		
 	}
+
+	public void addNewMethod(){
+		System.out.println("Welcome To New Method");
+	}
+	
 	
     public static void main( String[] args )
     {
