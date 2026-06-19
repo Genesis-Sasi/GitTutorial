@@ -8,8 +8,8 @@ public class App
 {
 	
 	public void methodOne(String data) {
-		System.out.println("Welecoming sasi to Git" + data);
-		if(data.equals("javatechie")){
+	
+		if(data.equals(Constant.NAME_REF)){
 			System.out.println("Welcome Java Techie");
 		}
 		
